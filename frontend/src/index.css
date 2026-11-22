@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Outfit:wght@100..900&family=Schoolbell&family=Varela+Round&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: "Schoolbell";
+}
+
+:root {
+    --primary: #29ABE2;
+    --primary-dark: #174C70;
+
+    --background: #FFFFFF;
+    --surface: #F5FAFD;
+
+    --text-primary: #174C70;
+    --text-secondary: #64748B;
+
+    --border: #E2E8F0;
+}
