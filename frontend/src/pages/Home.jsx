@@ -41,7 +41,7 @@ const Home = () => {
         </div>
 
         <div className="w-full h-full grid grid-cols-1">
-            <div className="border border-dashed border-[#947B51] rounded-xl bg-[#E5DCC9] p-4 min-h-10 flex items-center gap-5 hover:cursor-pointer">
+            <div className="border border-dashed border-[#947B51] rounded-xl bg-[#E5DCC9] p-4 min-h-10 flex items-center gap-5 hover:cursor-pointer animate-bounce duration-700">
                 <div className="bg-[#947B51] text-[#E5DCC9] p-4 flex items-center justify-center rounded-full">
                     <LuPlus size={25}/>
                 </div>
